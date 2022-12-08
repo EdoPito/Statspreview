@@ -1,0 +1,144 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.office{
+
+   
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    
+    
+  
+}
+
+
+.card{
+
+    width: 61.00%; 
+    min-height: 26.03%;
+    background-color:hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 2%;
+   
+}
+
+body{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(233, 47%, 7%);
+    
+}
+
+.card-text{
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-height: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+
+.card-text section{
+
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+
+}
+
+h1,section p{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+article{
+
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+.info p{
+
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+strong{
+
+    color: hsl(277, 64%, 61%);
+}
+
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 1300px) {
+
+    .card{
+
+        display: flex;
+        flex-direction: column;
+        min-width: 90%;
+        min-height: 90vh;
+        align-items: center;
+        border-radius: 2%;
+        
+    }
+
+    .card-text{
+
+
+        height: 500px;
+        width: 85%;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .office{
+
+        width: 100%;
+        height: 20%;
+        border-top-right-radius: 2%;
+        border-top-left-radius: 2%;
+    }
+
+    section{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    
+
+
+
+
+    
+}
